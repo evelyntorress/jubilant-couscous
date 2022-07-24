@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-[#fef9ef];
+        @apply text-slate-700
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+        @apply text-slate-700
+    }
+}
