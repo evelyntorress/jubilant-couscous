@@ -13,3 +13,8 @@
         @apply text-slate-700
     }
 }
+/* Navbar */
+.navList {
+    display: flex;
+    justify-content: flex-end;
+}

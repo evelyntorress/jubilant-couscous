@@ -7,10 +7,10 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ff6b6b] text-gray-100">
+    <div className="navList fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ff6b6b] text-gray-100">
       
         {/* Menu */}
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex text-lg">
           <li>Home</li>
           <li>About</li>
           <li>Experience</li>
