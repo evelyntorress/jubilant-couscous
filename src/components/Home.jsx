@@ -9,6 +9,7 @@ const Home = () => {
         <h1 className="text-3xl sm:text-5xl py-3 font-bold text-cyan-600">
           A junior Full Stack Web Developer.
         </h1>
+        <img src="./assets/profile-picture.png" alt="profile" />
         <h2 className="text-sky-900 text-lg py-4 max-w-[700px]">
           Mastering skills in HTML, CSS, JavaScript, APIs, NodeJS, OOP, Express,
           and SQL.
