@@ -1,5 +1,8 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import homePageImage from '../assets/profile-picture.png'
+
+
 const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#fef9ef]">
@@ -9,7 +12,7 @@ const Home = () => {
         <h1 className="text-3xl sm:text-5xl py-3 font-bold text-cyan-600">
           A junior Full Stack Web Developer.
         </h1>
-        <img src="./assets/profile-picture.png" alt="profile" />
+        <img src={homePageImage} alt="profile" width="200" height="200"/>
         <h2 className="text-sky-900 text-lg py-4 max-w-[700px]">
           Mastering skills in HTML, CSS, JavaScript, APIs, NodeJS, OOP, Express,
           and SQL.
