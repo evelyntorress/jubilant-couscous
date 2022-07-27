@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@200&family=Source+Code+Pro:wght@500&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@500&family=Source+Sans+Pro:wght@200&display=swap');
 
 @layer base {
     body {
@@ -24,3 +24,32 @@
 .name{
 font-family: 'Abril Fatface', cursive;
 }
+
+.rotate {
+    font-size: 20px;
+    margin: 100;
+    writing-mode: vertical-rl;
+    text-align: center;
+    line-height: .9;
+     
+    /* position sticky */
+  }
+
+  .line {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 5px;
+    height: 230px;
+  }
+  
+  /* div {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: max-content max-content;
+  } */
+  
+  /* body {
+    margin: 0;
+  } */

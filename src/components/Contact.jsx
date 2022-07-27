@@ -13,7 +13,7 @@ function Contact() {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
            <div>
             <p className="text-4xl font-bold inline border-b-2 border-pink-200">Contact</p> 
-            <p className='py-4'>Please, contact me if you have any questions.</p>
+            <p className='text-xl py-4'>Please, contact me if you have any questions.</p>
            </div>
         </div>
     </div>
