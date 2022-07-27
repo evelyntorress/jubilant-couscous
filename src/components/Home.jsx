@@ -6,6 +6,8 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#fef9ef]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+
+        
         <div className="flex flex-row items-center justify-evenly">
           <div className="heading-container">
             <h1 className="text-cyan-600 text-4xl py-3 px-6">
@@ -20,11 +22,11 @@ const Home = () => {
           </div>
           <img src={homePageImage} alt="profile" width="200" height="200" />
          {/* email */}
- <div>
+        <div>
           <p className="rotate pt-1"> evelyntorress@gmail.com</p>
           <div>
           <p className="line"></p>
-        </div>
+          </div>
         </div>
         </div>
         <h2 className="text-sky-900 text-lg py-4 max-w-[700px]">
