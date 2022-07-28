@@ -8,7 +8,7 @@ My task is to create a portfolio using new React skills.
 This is a simple portfolio, showing some of my skills and projects.
 I used React and Tailwind as CSS framework. Also has a functional contact form.
 
-### Installation
+## Installation
 Clone the repo, run `npm install` and`npm start`.
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
