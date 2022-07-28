@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -9,10 +10,29 @@ const Navbar = () => {
       
         {/* Menu */}
         <ul className="hidden md:flex text-lg">
-          <li>/home</li>
-          <li>/about</li>
-          <li>/projects</li>
-          <li>/contact</li>
+          <li>
+          <Link to='home' smooth={true} duration={500}>
+          /home
+          </Link>
+          </li>
+          <li>
+          <Link to='about' smooth={true} duration={500}>
+          /about
+          </Link></li>
+          <li>
+          <Link to='skills' smooth={true} duration={500}>
+          /skills
+          </Link></li>
+          <li>
+          <Link to='work' smooth={true} duration={500}>
+            /work
+          </Link>
+        </li>
+          <li>
+          <Link to='contact' smooth={true} duration={500}>
+            /contact
+          </Link>
+          </li>
         </ul>
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
@@ -25,10 +45,26 @@ const Navbar = () => {
             !nav
               ? 'hidden'
               : 'absolute top-0 left-0 w-full h-screen bg-[#dd8585] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Experience</li>
-        <li className='py-6 text-4xl'>Contact</li>
+        <li className='py-6 text-4xl'>
+        <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+          /home
+          </Link></li>
+        <li className='py-6 text-4xl'>
+        <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          /about
+          </Link></li>
+        <li className='py-6 text-4xl'>
+        <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+          /skills
+          </Link></li>
+          <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+            /work
+          </Link></li>
+        <li className='py-6 text-4xl'>
+        <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+            /contact
+          </Link></li>
       </ul>
      
     </div>

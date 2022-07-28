@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import homePageImage from "../assets/profile-picture.png";
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -26,21 +27,23 @@ const Home = () => {
           <p className="rotate pt-1"> evelyntorress@gmail.com</p>
           <div>
           <p className="line"></p>
-          </div>
+        </div>
         </div>
         </div>
         <h2 className="text-sky-900 text-lg py-4 max-w-[700px]">
-          Mastering skills in HTML, CSS, JavaScript, APIs, NodeJS, OOP, Express,
+          Mastering skills in HTML, CSS, JavaScript, APIs, NodeJS, Express,
           and SQL.
         </h2>
       
         <div>
+        <Link to='work' smooth={true} duration={500}>
           <button className="text-black border-2 border-gray-600 px-6 py-1 my-3 flex items-center hover:bg-sky-500/60 hover:border-gray-500">
             Projects
             <span className="hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
+          </Link>
         </div>
       </div>
     </div>

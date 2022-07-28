@@ -25,14 +25,16 @@
 font-family: 'Abril Fatface', cursive;
 }
 
+/* Email on the right side */
 .rotate {
+    position: absolute;
     font-size: 20px;
     margin: 100;
     writing-mode: vertical-rl;
     text-align: center;
     line-height: .9;
-     
-    /* position sticky */
+    margin-left: 3%;
+    margin-top: 8%;
   }
 
   .line {
