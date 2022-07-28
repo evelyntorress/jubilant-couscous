@@ -27,7 +27,7 @@ Mobile version.
 
 ## Usage
 
-The site is live at Heroku [folow this link](https://calm-oasis-09257.herokuapp.com/)
+The site is live at [this link](https://evelyntorress.github.io/jubilant-couscous/)
 
 
 
