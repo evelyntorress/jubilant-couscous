@@ -17,7 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The following images shows the web application's appearance and functionality:
 
+Main web-page.
+
 ![web-site](./src/assets/web-site.png)
+
+Mobile version.
 
 ![mobile-version](./src/assets/mobile-version.jpeg)
 
