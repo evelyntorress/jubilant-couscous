@@ -25,6 +25,10 @@ Mobile version.
 
 ![mobile-version](./src/assets/mobile-version.jpeg)
 
+## Usage
+
+The site is live at Heroku [folow this link](https://calm-oasis-09257.herokuapp.com/)
+
 
 
 
