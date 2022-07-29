@@ -29,7 +29,7 @@ font-family: 'Abril Fatface', cursive;
 .rotate {
     position: absolute;
     font-size: 20px;
-    margin: 100;
+    margin: 100 !important;
     writing-mode: vertical-rl;
     text-align: center;
     line-height: .9;
