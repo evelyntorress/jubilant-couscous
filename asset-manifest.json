@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jubilant-couscous/static/css/main.0fef29cb.css",
+    "main.css": "/jubilant-couscous/static/css/main.1b29a023.css",
     "main.js": "/jubilant-couscous/static/js/main.7d1f3e5f.js",
     "static/media/onclick-news.jpeg": "/jubilant-couscous/static/media/onclick-news.30a36c0cfb51d8786df9.jpeg",
     "static/media/express-movies.jpeg": "/jubilant-couscous/static/media/express-movies.d5b9a88b2cf083178e15.jpeg",
@@ -12,11 +12,11 @@
     "static/media/css.png": "/jubilant-couscous/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/jubilant-couscous/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/jubilant-couscous/index.html",
-    "main.0fef29cb.css.map": "/jubilant-couscous/static/css/main.0fef29cb.css.map",
+    "main.1b29a023.css.map": "/jubilant-couscous/static/css/main.1b29a023.css.map",
     "main.7d1f3e5f.js.map": "/jubilant-couscous/static/js/main.7d1f3e5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fef29cb.css",
+    "static/css/main.1b29a023.css",
     "static/js/main.7d1f3e5f.js"
   ]
 }
