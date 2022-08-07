@@ -16,10 +16,28 @@ function Skills() {
             Toolkit
           </p>
           <p className="text-xl py-4">
-            These are the technologies I've worked with
+            These are the languages and technologies I've worked with:
           </p>
         </div>
-        {/* Container for the icons */}
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Nodejs</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>React</li>
+          <li>Insomnia</li>
+          <li>GitHub</li>
+          <li>Heroku</li>
+          <li>Bootstrap</li>
+          <li>Materialize</li>
+          <li>Bulma</li>
+          <li>Tailwind</li>
+        </ol>
+
+
+        {/* Container for the icons
         <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-8">
           <div>
             <img className="mx-auto" src={HTML} alt="HTML icon" width="60" />
@@ -60,7 +78,7 @@ function Skills() {
             />
             <p className="my-4">React</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

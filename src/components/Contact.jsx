@@ -1,6 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 function Contact() {
   return (
@@ -63,6 +64,13 @@ function Contact() {
           target={"blank"}
         >
           <BsLinkedin size={30} />
+        </a>
+        <a
+          className="flex justify-between items-center w-full text-gray-600"
+          href="mailto:evelyntorress@gmail.com"
+          target={"blank"}
+        >
+          <BsFillPersonLinesFill size={30} />
         </a>
       </div>
     </div>
