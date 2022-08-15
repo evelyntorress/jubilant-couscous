@@ -24,8 +24,10 @@ function Skills() {
           <li>CSS</li>
           <li>JavaScript</li>
           <li>Nodejs</li>
+          <li>Expressjs</li>
           <li>MySQL</li>
           <li>MongoDB</li>
+          <li>Mongoose</li>
           <li>React</li>
           <li>Insomnia</li>
           <li>GitHub</li>
@@ -36,49 +38,6 @@ function Skills() {
           <li>Tailwind</li>
         </ol>
 
-
-        {/* Container for the icons
-        <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-8">
-          <div>
-            <img className="mx-auto" src={HTML} alt="HTML icon" width="60" />
-            <p className="my-4">HTML</p>
-          </div>
-
-          <div>
-            <img className="mx-auto" src={CSS} alt="HTML icon" width="60" />
-            <p className="my-4">CSS</p>
-          </div>
-
-          <div>
-            <img
-              className="mx-auto"
-              src={JavaScript}
-              alt="HTML icon"
-              width="60"
-            />
-            <p className="my-4">JavaScript</p>
-          </div>
-
-          <div>
-            <img className="mx-auto" src={Node} alt="HTML icon" width="60" />
-            <p className="my-4">Node</p>
-          </div>
-
-          <div>
-            <img className="mx-auto" src={Mongo} alt="HTML icon" width="60" />
-            <p className="my-4">Mongo DB</p>
-          </div>
-
-          <div>
-            <img
-              className="mx-auto"
-              src={ReactImg}
-              alt="HTML icon"
-              width="60"
-            />
-            <p className="my-4">React</p>
-          </div>
-        </div> */}
       </div>
     </div>
   );
