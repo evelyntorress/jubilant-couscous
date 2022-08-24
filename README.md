@@ -27,7 +27,7 @@ Mobile version.
 
 ## Usage
 
-The site is live at [this link](https://evelyntorress.github.io/jubilant-couscous/)
+The site is live at [this link](https://evelyntorress.github.io/portfolio/)
 
 
 
