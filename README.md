@@ -10,7 +10,7 @@ I used React and Tailwind as CSS framework. Also has a functional contact form.
 
 ## Installation
 Clone the repo, run `npm install` and`npm start`.
-Runs the app in the development mode.
+Run the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Mock-Up

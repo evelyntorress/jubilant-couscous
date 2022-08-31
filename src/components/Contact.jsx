@@ -67,7 +67,7 @@ function Contact() {
         </a>
         <a
           className="flex justify-between items-center w-full text-gray-600"
-          href="mailto:evelyntorress@gmail.com"
+          href="https://docs.google.com/document/d/1U9qwwZJXZB6kgPUEr3So8tzyUMkR5ZvqU4X-bRvIGlQ/edit"
           target={"blank"}
         >
           <BsFillPersonLinesFill size={30} />
