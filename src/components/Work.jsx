@@ -37,6 +37,10 @@ function Work() {
                   </button>
                 </a>
               </div>
+              <p>News website that will provide highlights of top stories. We used two server side API's, one to fetch finance news including stock market data and second to fetch news from other categories.</p>
+              <p>This application was designed using HTML, CSS, Javascript, CSS Framework Materialize, Web API, Third Party API's and Server side API's.
+
+</p>
             </div>
           </div>
           {/* Project 2 */}
@@ -62,6 +66,11 @@ function Work() {
                   </button>
                 </a>
               </div>
+              <p>We built a movie site that allows users to interact and provide their own reviews.
+</p>
+<p>The front end was built using HTML, CSS and Bulma as a CSS framework.
+We used JavaScript and Express route, we include authentication and environment variables in order to protect passwords. Lastly, we used Heroku to deploy.
+</p>
             </div>
           </div>
           {/* Project 3 */}
@@ -87,6 +96,8 @@ function Work() {
                   </button>
                 </a>
               </div>
+              <p>This is an E-commerce website that provides a user profile, products and product details.</p>
+              <p>This project was the first collaborative MERN-stack single-page application, combine a MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end, implementing user authentication with JWT to build a user-focused platform.</p>
             </div>
           </div>
         </div> 
