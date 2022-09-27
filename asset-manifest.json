@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.734d4995.css",
-    "main.js": "/portfolio/static/js/main.eb37b28e.js",
+    "main.js": "/portfolio/static/js/main.df4c7642.js",
     "static/media/image-1.png": "/portfolio/static/media/image-1.eb8bc434e760faa121bc.png",
     "static/media/onclick-news.jpeg": "/portfolio/static/media/onclick-news.30a36c0cfb51d8786df9.jpeg",
     "static/media/express-movies.jpeg": "/portfolio/static/media/express-movies.d5b9a88b2cf083178e15.jpeg",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.734d4995.css.map": "/portfolio/static/css/main.734d4995.css.map",
-    "main.eb37b28e.js.map": "/portfolio/static/js/main.eb37b28e.js.map"
+    "main.df4c7642.js.map": "/portfolio/static/js/main.df4c7642.js.map"
   },
   "entrypoints": [
     "static/css/main.734d4995.css",
-    "static/js/main.eb37b28e.js"
+    "static/js/main.df4c7642.js"
   ]
 }
