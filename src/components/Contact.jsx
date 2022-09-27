@@ -2,6 +2,7 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { RiMailSendFill} from "react-icons/ri";
 
 function Contact() {
   return (
@@ -71,6 +72,13 @@ function Contact() {
           target={"blank"}
         >
           <BsFillPersonLinesFill size={30} />
+        </a>
+          <a
+          className="flex justify-between items-center w-full text-gray-600"
+          href="mailto:evelyntorress@gmail.com"
+          target={"blank"}
+        >
+          <RiMailSendFill size={30} />
         </a>
       </div>
     </div>
